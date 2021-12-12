@@ -1,0 +1,13 @@
+---
+baseurl: "https://note.qitas.cn/"
+DefaultContentLanguage: "zh-cn"
+hasCJKLanguage: true
+languageCode: "zh-cn"
+title: "Qitas's blog"
+theme: "LoveIt"
+metaDataFormat: "yaml"
+algolia:
+  index: "hugoblogloveit"
+  key: "d3ef25fc7cb90a144ea0139748e4cf6b"
+  appID: "EO42BFKWB5"
+---
