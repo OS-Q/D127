@@ -1,5 +1,5 @@
 {
-  "name": "bloghugoloveit",
+  "name": "QitasBlog",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Qitas/reader.git"
+    "url": "git+https://github.com/Qitas/blog.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Qitas/reader/issues"
+    "url": "https://github.com/Qitas/blog/issues"
   },
-  "homepage": "https://github.com/Qitas/reader#readme",
+  "homepage": "https://github.com/Qitas/blog#readme",
   "description": "",
   "dependencies": {
     "gulp": "^4.0.2",
