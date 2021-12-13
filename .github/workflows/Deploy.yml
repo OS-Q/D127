@@ -6,8 +6,11 @@ on:
       - master
 
 jobs:
-  build-deploy:
-    runs-on: ubuntu-18.04
+  build:
+    runs-on: ubuntu-20.04
+    env:
+      DOCS_REPO: Qitas/reader
+      DOCS_DIR: reader
     steps:
       - name: Checkout master
         uses: actions/checkout@v1
@@ -20,9 +23,16 @@ jobs:
       - name: Build Hugo
         run: HUGO_ENV=production hugo --gc --minify
 
-      - name: Deploy Hugo to gh-pages
-        uses: peaceiris/actions-gh-pages@v2
-        env:
-          ACTIONS_DEPLOY_KEY: ${{ secrets.QITAS_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: ./public
+      # - name: Deploy Hugo to gh-pages
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   env:
+      #     ACTIONS_DEPLOY_KEY: ${{ secrets.QITAS_TOKEN }}
+      #     PUBLISH_BRANCH: gh-pages
+          # PUBLISH_DIR: ./public
+      - name: Deploy to Github Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.QITAS_TOKEN }}
+          external_repository: ${{ env.DOCS_REPO }}
+          publish_dir: ./
+          commit_message: Sync Docs
