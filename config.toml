@@ -59,7 +59,7 @@ enableEmoji = true
         title = "GitHub"
         weight = 4
     [languages.zh-cn.params]
-      description = "A blog recording my life"
+      description = "#ifndef QITAS"
       keywords = ["Dynamics AX", "Github" ,"Linux", "Synology","HUGO","Tutorial","Technology"]
       [languages.zh-cn.params.app]
         title = ""
@@ -80,8 +80,8 @@ enableEmoji = true
         # canonifyurls = true
         [languages.zh-cn.params.search.algolia]
           index = "hugoblogloveit"
-          appID = "EO42BFKWB5"
-          searchKey = "d3ef25fc7cb90a144ea0139748e4cf6b"
+          appID = "9LM8WNLG2K"
+          searchKey = "bd237fe2ccc02ff22ff8ce6407cc2def"
       # 主页信息设置
       [languages.zh-cn.params.home]
         rss = 10
@@ -100,10 +100,10 @@ enableEmoji = true
           enable = true
           paginate = 6
       [languages.zh-cn.params.social]
-        GitHub = "ZhaoqiangCn"
-        Instagram = "zq19890000"
-        Email = "zq19890000@gmail.com"
-        Telegram = "jaoqiang"
+        GitHub = "Qitas"
+        Instagram = "Qitas"
+        Email = "qitas@qitas.cn"
+        Telegram = "Qitas"
         Youtubechannel = "UCb71N1EWfn12QGEfZ-5GIQA?view_as=subscriber"
         Bilibili = "474553042"
         RSS = true
@@ -121,10 +121,10 @@ enableEmoji = true
     desktopMode = "fixed"
     mobileMode = "auto"
     [params.header.title]
-      logo = ""
-      name = "Qitas blog"
-      pre = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
-      post = ""
+      logo = "https://mtfirmware.oss-cn-shanghai.aliyuncs.com/qitas.png"
+      name = "年轮在骨"
+      pre = "<i class='fa fa-cog fa-spin'></i>"
+      post = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
       typeit = false
   # 页面底部信息配置
   [params.footer]
@@ -133,8 +133,8 @@ enableEmoji = true
     hugo = true
     copyright = true
     author = true
-    since = 2016
-    icp = '<a href="http://www.beian.miit.gov.cn">沪ICP备17033498号</a>'
+    since = 2020
+    icp = '<a href="http://www.beian.miit.gov.cn">沪ICP备17033498-1号</a>'
     license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
   # Section (所有文章) 页面配置
   [params.section]
@@ -272,7 +272,7 @@ enableEmoji = true
     [params.page.seo]
       images = []
       [params.page.seo.publisher]
-        name = "zhaoqiang"
+        name = "Qitas"
         logoUrl = "/images/qitas.png"
   # TypeIt 配置
   [params.typeit]
@@ -332,7 +332,7 @@ enableEmoji = true
     startLevel = 1
     endLevel = 6
 [author]
-  name = "zhaoqiang"
+  name = "Qitas"
   email = ""
   link = ""
 [sitemap]
