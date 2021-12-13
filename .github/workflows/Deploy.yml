@@ -34,5 +34,6 @@ jobs:
         with:
           personal_token: ${{ secrets.QITAS_TOKEN }}
           external_repository: ${{ env.DOCS_REPO }}
+          PUBLISH_BRANCH: gh-pages
           publish_dir: ./public
           commit_message: Sync Docs
