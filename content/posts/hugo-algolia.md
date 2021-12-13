@@ -73,7 +73,7 @@ baseurl: "http://blog.qitas.cn/"
 DefaultContentLanguage: "zh-cn"
 hasCJKLanguage: true
 languageCode: "zh-cn"
-title: "zhaoqiang's blog"
+title: "Qitas blog"
 theme: "loveit"
 metaDataFormat: "yaml"
 algolia:

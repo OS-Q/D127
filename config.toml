@@ -122,7 +122,7 @@ enableEmoji = true
     mobileMode = "auto"
     [params.header.title]
       logo = ""
-      name = "zhaoqiang's blog"
+      name = "Qitas blog"
       pre = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
       post = ""
       typeit = false
