@@ -1,4 +1,4 @@
-baseURL = "https://note.qitas.cn/"
+baseURL = "http://blog.qitas.cn/"
 # [en, zh-cn, fr, pl, ...] determines default content language
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
@@ -89,8 +89,8 @@ enableEmoji = true
         [languages.zh-cn.params.home.profile]
           enable = true
           gravatarEmail = ""
-          avatarURL = "https://nashome-image-bucket.oss-accelerate.aliyuncs.com/Images/avatar.png?x-oss-process=style/thumbnail"
-          title = "" #zhaoqiang's blog
+          avatarURL = "https://mtfirmware.oss-cn-shanghai.aliyuncs.com/qitas.png"
+          title = "" #Qitas's blog
           subtitle = "A blog recording my life"
           typeit = true
           social = true
@@ -273,7 +273,7 @@ enableEmoji = true
       images = []
       [params.page.seo.publisher]
         name = "zhaoqiang"
-        logoUrl = "/images/avatar.png"
+        logoUrl = "/images/qitas.png"
   # TypeIt 配置
   [params.typeit]
     speed = 100

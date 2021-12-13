@@ -69,7 +69,7 @@ comment:
 
 ```yaml
 ---
-baseurl: "https://note.qitas.cn/"
+baseurl: "http://blog.qitas.cn/"
 DefaultContentLanguage: "zh-cn"
 hasCJKLanguage: true
 languageCode: "zh-cn"
