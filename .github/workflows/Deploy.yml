@@ -34,5 +34,5 @@ jobs:
         with:
           personal_token: ${{ secrets.QITAS_TOKEN }}
           external_repository: ${{ env.DOCS_REPO }}
-          publish_dir: ./
+          publish_dir: ./public
           commit_message: Sync Docs
