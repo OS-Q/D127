@@ -80,8 +80,8 @@ enableEmoji = true
         # canonifyurls = true
         [languages.zh-cn.params.search.algolia]
           index = "hugoblogloveit"
-          appID = "9LM8WNLG2K"
-          searchKey = "bd237fe2ccc02ff22ff8ce6407cc2def"
+          appID = "EO42BFKWB5"
+          searchKey = "d3ef25fc7cb90a144ea0139748e4cf6b"
       # 主页信息设置
       [languages.zh-cn.params.home]
         rss = 10
@@ -91,7 +91,7 @@ enableEmoji = true
           gravatarEmail = ""
           avatarURL = "https://mtfirmware.oss-cn-shanghai.aliyuncs.com/qitas.png"
           title = "" #Qitas's blog
-          subtitle = "A blog recording my life"
+          subtitle = "年轮在骨，厚积于芯"
           typeit = true
           social = true
           disclaimer = ""
@@ -101,12 +101,13 @@ enableEmoji = true
           paginate = 6
       [languages.zh-cn.params.social]
         GitHub = "Qitas"
-        Instagram = "Qitas"
+        Linkedin = "qitas"
+        Facebook = "qitast"
+        Twitter = "TangQitas"
+        Bilibili = "1308059304"
+        Zhihu = "qitas"
         Email = "qitas@qitas.cn"
-        Telegram = "Qitas"
-        Youtubechannel = "UCb71N1EWfn12QGEfZ-5GIQA?view_as=subscriber"
-        Bilibili = "474553042"
-        RSS = true
+        RSS = false
 [params]
   version = "0.2.X"
   # 网站默认主题 ("light", "dark", "auto")
@@ -123,8 +124,8 @@ enableEmoji = true
     [params.header.title]
       logo = "https://mtfirmware.oss-cn-shanghai.aliyuncs.com/qitas.png"
       name = "年轮在骨"
-      pre = "<i class='fa fa-cog fa-spin'></i>"
-      post = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
+      pre = ""
+      post = "<i class='fa fa-cog fa-spin'></i>"
       typeit = false
   # 页面底部信息配置
   [params.footer]
