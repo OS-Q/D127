@@ -1,10 +1,10 @@
 ---
-title: " 同时部署 Hugo 静态博客到 Netlify 和 Github Pages"
-date: 2020-01-12T14:49:17+08:00
-description: "百度无法收录github pages，因此本文介绍如何把hugo 同时部署到github pages和netlify而且每次更新文章只需要push到github即可"
+title: " 测试博客系统"
+date: 2021-11-12T14:49:17+08:00
+description: "主要包括使用图标呈现"
 draft: false
-tags: [Netlify,GithubPages,Even]
-categories: [hugo]
+tags: [Qitas,GithubPages,Even]
+categories: [blog]
 toc:
   enable: true
   auto: false
@@ -22,6 +22,18 @@ comment:
 
 <!--more-->
 >**本文同步更新至 [Youtube ](https://youtu.be/ZAi4a1fyBWI) 和 [BiliBili ](https://www.bilibili.com/video/av84216011/)**
+
+
+<h3 id="test">测试图片</h3>
+<p>图片为阅读数据类容。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="images/B92.jpg"
+        data-sizes="auto"
+        alt="images/B92.jpg"
+        title="阅读内容" /></p>
+
 
 ## 部署到Github Pages
 
@@ -48,18 +60,6 @@ git submodule add https://github.com/zhaoqiangcn/hugo-theme-even.git themes/even
 ## 部署
 
 
-
-![1](https://nashome-image-bucket.oss-cn-shanghai.aliyuncs.com/PicGo/netlify-signup.jpg)
-
-![2](https://nashome-image-bucket.oss-cn-shanghai.aliyuncs.com/PicGo/netlify-add-new-site.jpg)
-
-![3](https://nashome-image-bucket.oss-cn-shanghai.aliyuncs.com/PicGo/netlify-create-new-site-step-1.jpg)
-
-![4](https://nashome-image-bucket.oss-cn-shanghai.aliyuncs.com/PicGo/netlify-create-new-site-step-2.jpg)
-
-![5](https://nashome-image-bucket.oss-cn-shanghai.aliyuncs.com/PicGo/netlify-deploying-site.gif)
-
-
 跟官网宣传的一样，部署 Hugo 网站到 Netlify 非常简单，跟着导航操作即可。
 
 经过部署后已经可以通过 Netlify 分配的域名来访问网站了
@@ -84,8 +84,3 @@ dns4.p01.nsone.net
 
 在 *HTTPS* 选项卡下的 *SSL/TLS certificate* 选项开启即可。
 
-证书的签发者为 *Let’s Encrypt*，支持自动续期。也可以自定义别的签发者。
-
-如果想在 *Chrome* 地址栏里看到小绿锁（小灰锁），还需要把所有链接都替换成以 *https://* 开头的链接。
-
-接着在页面按下 *F12* 来打开开发者工具，并切换到 *Network*，刷新页面，查看有什么请求不是以 *https://* 发出的，修改相关页面来替换。
