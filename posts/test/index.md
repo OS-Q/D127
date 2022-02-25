@@ -5,25 +5,6 @@
 >**本文同步更新至 [Youtube](https://youtu.be/ZAi4a1fyBWI) 和 [BiliBili](https://www.bilibili.com/video/av84216011/)**
 
 
-
-## 设置Even主题子模块化
-
-在网站根目录下输入添加主题子模块的命令：
-
-```
-git submodule add https://github.com/zhaoqiangcn/hugo-theme-even.git themes/even
-```
-
-如果在网站根目录下出现 *.gitmodules* 文件，且内容跟我的类似，则表示成功：
-
-```
-[submodule "themes/even"]
-	path = themes/even
-	url = https://github.com/zhaoqiangcn/hugo-theme-even.git
-```
-
-然后 进入主题文件夹 *git push* 到远程仓库即可。
-
 ## 部署
 
 
