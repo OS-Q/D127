@@ -3,7 +3,7 @@ title: " 测试博客"
 date: 2022-01-12T14:49:17+08:00
 description: "主要包括使用图标呈现"
 draft: false
-tags: [Qitas,init]
+tags: [Qitas,Even]
 categories: [blog]
 toc:
   enable: true
@@ -21,7 +21,19 @@ comment:
 ---
 
 <!--more-->
->**本文同步更新至 [Youtube](https://youtu.be/ZAi4a1fyBWI) 和 [BiliBili](https://www.bilibili.com/video/av84216011/)**
+>**本文同步更新至 [Youtube ](https://youtu.be/ZAi4a1fyBWI) 和 [BiliBili ](https://www.bilibili.com/video/av84216011/)**
+
+
+<h3 id="test">测试图片</h3>
+<p>图片为阅读数据类容。</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="images/B92.jpg"
+        data-sizes="auto"
+        alt="images/B92.jpg"
+        title="阅读内容" /></p>
+
 
 ## 部署到Github Pages
 
