@@ -28,3 +28,10 @@ jobs:
           PUBLISH_BRANCH: gh-pages
           publish_dir: ./public
           commit_message: Sync Docs
+
+      - name: Checkout gh-pages
+        uses: actions/checkout@v1
+
+      - name: Create CNAME
+        run: |
+          echo -e "blog.qitas.cn" >> CNAME

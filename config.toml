@@ -135,7 +135,7 @@ enableEmoji = true
     copyright = true
     author = true
     since = 2021
-    icp = '<a href="http://www.beian.miit.gov.cn">粤ICP备18011880号</a>'
+    icp = '<a href="https://beian.miit.gov.cn/">粤ICP备18011880号</a>'
     license= ''
   # Section (所有文章) 页面配置
   [params.section]
