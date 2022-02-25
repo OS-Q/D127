@@ -22,7 +22,7 @@ enableEmoji = true
     languageName = "简体中文"
     hasCJKLanguage = false
     paginate = 12
-    googleAnalytics = "UA-105751499-1"
+    googleAnalytics = ""
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # 菜单配置
     [languages.zh-cn.menu]
@@ -30,7 +30,7 @@ enableEmoji = true
         identifier = "posts"
         pre = ""
         post = ""
-        name = "所有文章"
+        name = "文章"
         url = "/posts/"
         title = ""
         weight = 1
@@ -59,7 +59,7 @@ enableEmoji = true
         title = "GitHub"
         weight = 4
     [languages.zh-cn.params]
-      description = "#ifndef QITAS"
+      description = "QITAS博客"
       keywords = ["Dynamics AX", "Github" ,"Linux", "Synology","HUGO","Tutorial","Technology"]
       [languages.zh-cn.params.app]
         title = ""
