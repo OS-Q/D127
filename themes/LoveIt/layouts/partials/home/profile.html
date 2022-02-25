@@ -30,11 +30,9 @@
     {{- with $profile.subtitle -}}
         <h2 class="home-subtitle">
             {{- if $profile.typeit -}}
-                <h3 class="home-disclaimer">#ifndef    Qitas     </h3>
                 {{- $id := dict "Content" . "Scratch" $.Scratch | partial "function/id.html" -}}
                 <div id="{{ $id }}" class="typeit"></div>
                 {{- dict $id (slice $id) | dict "typeitMap" | merge ($.Scratch.Get "this") | $.Scratch.Set "this" -}}
-                <h3 class="home-disclaimer">#endif               </h3>
             {{- else -}}
                 {{- . -}}
             {{- end -}}

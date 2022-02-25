@@ -7,7 +7,7 @@ theme = "LoveIt"
 
 themesDir = "themes"
 
-title = "Qitas Blog"
+title = "从心开始"
 
 enableRobotsTXT = true
 
@@ -123,9 +123,9 @@ enableEmoji = true
     mobileMode = "auto"
     [params.header.title]
       logo = "https://mtfirmware.oss-cn-shanghai.aliyuncs.com/qitas.png"
-      name = "年轮在骨"
+      name = "自我迭代"
       pre = ""
-      post = "<i class='fa fa-cog fa-spin'></i>"
+      post = ""
       typeit = false
   # 页面底部信息配置
   [params.footer]
@@ -136,7 +136,7 @@ enableEmoji = true
     author = true
     since = 2020
     icp = '<a href="http://www.beian.miit.gov.cn">粤ICP备18011880号</a>'
-    license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    license= ''
   # Section (所有文章) 页面配置
   [params.section]
     paginate = 20
