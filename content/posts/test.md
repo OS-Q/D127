@@ -21,23 +21,9 @@ comment:
 ---
 
 <!--more-->
->**本文同步更新至 [Youtube ](https://youtu.be/ZAi4a1fyBWI) 和 [BiliBili ](https://www.bilibili.com/video/av84216011/)**
+>**本文同步更新至 [Youtube](https://youtu.be/ZAi4a1fyBWI) 和 [BiliBili](https://www.bilibili.com/video/av84216011/)**
 
 
-<h3 id="test">测试图片</h3>
-<p>图片为阅读数据类容。</p>
-<p><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="images/B92.jpg"
-        data-sizes="auto"
-        alt="images/B92.jpg"
-        title="阅读内容" /></p>
-
-
-## 部署到Github Pages
-
-请参照 [用 Hugo 配合 GithubActions 自动构建我的博客]({{< ref "Hugo-Github-Actions.md" >}})
 
 ## 设置Even主题子模块化
 
