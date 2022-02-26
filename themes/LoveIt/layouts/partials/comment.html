@@ -11,9 +11,9 @@
             <div id="disqus_thread" class="comment"></div>
             {{- $source := printf "https://%v.disqus.com/embed.js" $disqus.shortname -}}
             {{- dict "Source" $source "Defer" true | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
-            <noscript>
+            <!-- <noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
-            </noscript>
+            </noscript> -->
         {{- end -}}
 
         {{- /* Gitalk Comment System */ -}}
@@ -25,9 +25,9 @@
             {{- $source := $cdn.gitalkJS | default "lib/gitalk/gitalk.min.js" -}}
             {{- dict "Source" $source "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
             {{- $commentConfig = dict "id" .Date "title" .Title "clientID" $gitalk.clientId "clientSecret" $gitalk.clientSecret "repo" $gitalk.repo "owner" $gitalk.owner "admin" (slice $gitalk.owner) | dict "gitalk" | merge $commentConfig -}}
-            <noscript>
+            <!-- <noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://github.com/gitalk/gitalk"></a>Gitalk</a>.
-            </noscript>
+            </noscript> -->
         {{- end -}}
 
         {{- /* Valine Comment System */ -}}
@@ -52,9 +52,9 @@
                 {{- $commentConfig = dict "serverURLs" . | dict "valine" | merge $commentConfig -}}
             {{- end -}}
             {{- $commentConfig = $valine.emoji | default "google.yml" | printf "data/emoji/%v" | resources.Get | transform.Unmarshal | dict "valine" | merge $commentConfig -}}
-            <noscript>
+            <!-- <noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
-            </noscript>
+            </noscript> -->
         {{- end -}}
 
         {{- /* Facebook Comment System */ -}}
@@ -69,9 +69,9 @@
             ></div>
             {{- $source := printf "https://connect.facebook.net/%v/sdk.js#xfbml=1&version=v5.0&appId=%v&autoLogAppEvents=1" ($facebook.languageCode | default (T "facebookLanguageCode")) $facebook.appId -}}
             {{- dict "Source" $source "Defer" true | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
-            <noscript>
+            <!-- <noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://developers.facebook.com/docs/plugins/comments/"></a>Facebook</a>.
-            </noscript>
+            </noscript> -->
         {{- end -}}
 
         {{- /* Telegram Comments System */ -}}
@@ -96,9 +96,9 @@
                 {{- $attr = printf `%v data-outlined="1"` $attr -}}
             {{- end -}}
             {{- dict "Source" "https://comments.app/js/widget.js?2" "Defer" true "Attr" $attr | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
-            <noscript>
+            <!-- <noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://comments.app/">Telegram Comments</a>.
-            </noscript>
+            </noscript> -->
         {{- end -}}
 
         {{- /* Commento Comment System */ -}}
@@ -106,9 +106,9 @@
         {{- if $commento.enable -}}
             <div id="commento"></div>
             {{- dict "Source" "https://cdn.commento.io/js/commento.js" "Defer" true | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
-            <noscript>
+            <!-- <noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://commento.io/">Commento</a>.
-            </noscript>
+            </noscript> -->
         {{- end -}}
 
         {{- /* Utterances Comment System */ -}}
@@ -120,9 +120,9 @@
             {{- $commentConfig = dict "label" $utterances.label | dict "utterances" | merge $commentConfig -}}
             {{- $commentConfig = $utterances.lightTheme | default "github-light" | dict "lightTheme" | dict "utterances" | merge $commentConfig -}}
             {{- $commentConfig = $utterances.darkTheme | default "github-dark" | dict "darkTheme" | dict "utterances" | merge $commentConfig -}}
-            <noscript>
+            <!-- <noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">Utterances</a>.
-            </noscript>
+            </noscript> -->
         {{- end -}}
     </div>
 {{- end -}}

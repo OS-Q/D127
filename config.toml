@@ -253,7 +253,7 @@ enableEmoji = true
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page
-          subtitle = "Know yourself, remain curious"
+          subtitle = "#define Climber Qitas Thinker"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
@@ -285,7 +285,7 @@ enableEmoji = true
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-  gitRepo = "https://github.com/dillonzq/LoveIt"
+  gitRepo = "https://github.com/qitas/blog"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
@@ -313,7 +313,7 @@ enableEmoji = true
       logo = "https://mtfirmware.oss-cn-shanghai.aliyuncs.com/qitas.png"
       # title name
       # 标题名称
-      name = "QitasBlog"
+      name = "Know yourself"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = ""
@@ -695,8 +695,8 @@ enableEmoji = true
     guessSyntax = true
     lineNos = true
     lineNumbersInTable = true
-    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
-    # false 是必要的设置 (https://github.com/dillonzq/LoveIt/issues/158)
+    # false is a necessary configuration (https://github.com/qitas/blog/issues/158)
+    # false 是必要的设置 (https://github.com/qitas/blog/issues/158)
     noClasses = false
   # Goldmark is from Hugo 0.60 the default library used for Markdown
   # Goldmark 是 Hugo 0.60 以来的默认 Markdown 解析库
