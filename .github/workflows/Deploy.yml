@@ -23,7 +23,6 @@ jobs:
 
       - name: Create CNAME
         run: |
-          mkdir public
           echo -e "blog.qitas.cn" >> ./public/CNAME
 
       - name: Deploy to Github Pages
