@@ -127,7 +127,7 @@ soluta officiis concludaturque ei qui, vide sensibus vim ad.
 
 可以使用一个空白行进行**换行**.
 
-## 5 内联 HTML 元素
+## 5 内联
 
 如果你需要某个 HTML 标签 (带有一个类), 则可以简单地像这样使用:
 
