@@ -47,7 +47,7 @@ enableEmoji = true
         post = ""
         name = "文章"
         url = "/posts/"
-        title = ""
+        title = "文章"
         weight = 1
       [[languages.zh-cn.menu.main]]
         identifier = "tags"
@@ -55,7 +55,7 @@ enableEmoji = true
         post = ""
         name = "标签"
         url = "/tags/"
-        title = ""
+        title = "标签"
         weight = 2
       [[languages.zh-cn.menu.main]]
         identifier = "categories"
@@ -72,6 +72,13 @@ enableEmoji = true
         url = "https://docs.qitas.cn/"
         title = ""
         weight = 4
+      [[languages.zh-cn.menu.main]]
+        identifier = "Note"
+        pre = ""
+        name = "笔记"
+        url = "https://note.qitas.cn/"
+        title = ""
+        weight = 5
     [languages.zh-cn.params]
       # 网站描述
       description = "QITAS博客"
@@ -199,6 +206,14 @@ enableEmoji = true
         url = "https://docs.qitas.cn/"
         title = ""
         weight = 4
+      [[languages.en.menu.main]]
+        identifier = "Note"
+        pre = ""
+        post = ""
+        name = "Note"
+        url = "https://note.qitas.cn/"
+        title = ""
+        weight = 5
     [languages.en.params]
       # site description
       description = "About LoveIt Theme"
