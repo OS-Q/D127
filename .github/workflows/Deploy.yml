@@ -15,14 +15,15 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
-          # extended: true
+          hugo-version: '0.73.0'
+          extended: true
 
       - name: Build Hugo
         run: HUGO_ENV=production hugo --gc --minify
 
       - name: Create CNAME
         run: |
+          mkdir public
           echo -e "blog.qitas.cn" >> ./public/CNAME
 
       - name: Deploy to Github Pages
