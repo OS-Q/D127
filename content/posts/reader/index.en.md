@@ -9,7 +9,7 @@ authorLink: "https://www.qitas.cn"
 description: "This article shows the basic Markdown syntax and format."
 resources:
 - name: "book-image"
-  src: "book.png"
+  src: "book-image.png"
 
 tags: ["Markdown", "HTML"]
 categories: ["Markdown"]
