@@ -15,7 +15,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.73.0'
+          hugo-version: '0.91.2'
           extended: true
 
       - name: Build Hugo
@@ -29,8 +29,8 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.QITAS_TOKEN }}
-          external_repository: Qitas/Qitas
-          PUBLISH_BRANCH: blog
+          external_repository: Qitas/blog
+          PUBLISH_BRANCH: gh-pages
           publish_dir: ./public
-          commit_message: Sync Blog Docs
+          commit_message: Sync Docs
 
