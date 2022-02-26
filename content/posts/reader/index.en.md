@@ -1,6 +1,6 @@
 ---
 weight: 4
-title: "Basic Markdown Syntax"
+title: "Markdown"
 date: 2022-01-01T21:57:40+08:00
 lastmod: 2022-02-01T16:45:40+08:00
 draft: false
@@ -9,7 +9,7 @@ authorLink: "https://www.qitas.cn"
 description: "This article shows the basic Markdown syntax and format."
 resources:
 - name: "book-image"
-  src: "index.jpg"
+  src: "book.png"
 
 tags: ["Markdown", "HTML"]
 categories: ["Markdown"]
