@@ -3,9 +3,8 @@ baseURL = "https://blog.qitas.cn/"
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
 defaultContentLanguage = "zh-cn"
 
-theme = "LoveIt"
 themesDir = "themes"
-
+theme = "LoveIt"
 title = "Blog"
 
 enableRobotsTXT = true
@@ -78,8 +77,8 @@ enableEmoji = true
         [languages.zh-cn.params.home.profile]
           enable = true
           gravatarEmail = ""
-          avatarURL = "https://mtfirmware.oss-cn-shanghai.aliyuncs.com/qitas.png"
-          title = "" #Qitas's blog
+          avatarURL = "/images/qitas.png"
+          title = "" #QitasBlog
           subtitle = "#define Qitas thinker"
           typeit = true
           social = true
