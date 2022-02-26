@@ -66,11 +66,11 @@ enableEmoji = true
         title = ""
         weight = 3
       [[languages.en.menu.main]]
-        identifier = "documentation"
+        identifier = "Note"
         pre = ""
         post = ""
         name = "Docs"
-        url = "/categories/documentation/"
+        url = "https://note.qitas.cn/"
         title = ""
         weight = 4
     [languages.en.params]
@@ -251,10 +251,10 @@ enableEmoji = true
         title = ""
         weight = 3
       [[languages.zh-cn.menu.main]]
-        identifier = "documentation"
+        identifier = "Note"
         pre = ""
         name = "文档"
-        url = "/categories/documentation/"
+        url = "https://note.qitas.cn/"
         title = ""
         weight = 4
     [languages.zh-cn.params]
@@ -311,7 +311,7 @@ enableEmoji = true
           # 主页显示的网站标题 (支持 HTML 格式)
           title = ""
           # 主页显示的网站副标题
-          subtitle = "#define Qitas thinker"
+          subtitle = "#define Climber Qitas Thinker"
           # 是否为副标题显示打字机动画
           typeit = true
           # 是否显示社交账号
@@ -333,62 +333,6 @@ enableEmoji = true
         Zhihu = "qitas"
         Email = "qitas@qitas.cn"
         RSS = false
-        Instagram = ""
-        Telegram = ""
-        Medium = ""
-        Gitlab = ""
-        Youtubelegacy = ""
-        Youtubecustom = ""
-        Youtubechannel = ""
-        Tumblr = ""
-        Quora = ""
-        Keybase = ""
-        Pinterest = ""
-        Reddit = ""
-        Codepen = ""
-        FreeCodeCamp = ""
-        Bitbucket = ""
-        Stackoverflow = ""
-        Weibo = "xxxx"
-        Odnoklassniki = ""
-        VK = ""
-        Flickr = ""
-        Xing = ""
-        Snapchat = ""
-        Soundcloud = ""
-        Spotify = ""
-        Bandcamp = ""
-        Paypal = ""
-        Fivehundredpx = ""
-        Mix = ""
-        Goodreads = ""
-        Lastfm = ""
-        Foursquare = ""
-        Hackernews = ""
-        Kickstarter = ""
-        Patreon = ""
-        Steam = "xxxx"
-        Twitch = ""
-        Strava = ""
-        Skype = ""
-        Whatsapp = ""
-        Douban = "xxxx"
-        Angellist = ""
-        Slidershare = ""
-        Jsfiddle = ""
-        Deviantart = ""
-        Behance = ""
-        Dribbble = ""
-        Wordpress = ""
-        Vine = ""
-        Googlescholar = ""
-        Researchgate = ""
-        Mastodon = ""
-        Thingiverse = ""
-        Devto = "xxxx"
-        Gitea = ""
-        XMPP = ""
-        Matrix = ""
 
 [params]
   # LoveIt theme version
