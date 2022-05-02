@@ -12,7 +12,7 @@ resources:
   src: "book-image.png"
 
 tags: ["Markdown", "HTML"]
-categories: ["Markdown"]
+categories: ["微信阅读"]
 
 lightgallery: true
 ---

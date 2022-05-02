@@ -8,11 +8,11 @@ author: "Qitas"
 authorLink: "https://www.qitas.cn"
 description: "这篇文章试水博客撰写"
 resources:
-- name: "book-image"
-  src: "book-image.png"
+- name: "featured-image"
+  src: "featured-image.png"
 
 tags: ["读书笔记", "旅行"]
-categories: ["Markdown"]
+categories: ["微信阅读"]
 
 lightgallery: true
 ---
