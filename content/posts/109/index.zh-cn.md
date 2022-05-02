@@ -11,7 +11,7 @@ resources:
 - name: "featured-image"
   src: "featured-image.png"
 
-tags: ["读书笔记", "旅行"]
+tags: ["投资理财", "旅行"]
 categories: ["微信阅读"]
 
 lightgallery: true
